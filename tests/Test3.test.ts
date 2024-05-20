@@ -44,5 +44,5 @@ test("login  test_01", async ({page, loginPage}) =>
            //const addEmployeespage =new AddEmployeeDetailsPage(page);   fixtures got created
         await addEmployeespage.AddEmployeeDetails(getRandomEmployeeDetails());
         await addEmployeespage.savebtn_fnc();
-        await page.waitForTimeout(2000);
+        await page.waitForTimeout(2000)
         })
